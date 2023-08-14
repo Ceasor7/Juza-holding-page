@@ -16,7 +16,6 @@ const HoldingPage = () => {
             className="w-36 h-35 sm:w-40 sm:h-40"
           />
         </div>
-
         <div className="flex flex-col-reverse sm:flex-row p-2 sm:p-8">
           <div className="w-full sm:w-1/2 pr-0 sm:pr-4 mt-4 sm:mt-0 flex justify-center items-center">
             <img
@@ -25,15 +24,15 @@ const HoldingPage = () => {
               className="w-50 h-60"
             />
           </div>
-          <div className="w-full sm:w-1/2 p-4 sm:p-8 flex flex-col justify-center items-center sm:items-start">
-            <h2 className="text-2xl sm:text-3xl text-center sm:text-left text-cyan-400 font-bold mb-2 sm:mb-4">
+          <div className="w-full sm:w-1/2 p-4 sm:p-8 flex flex-col justify-center items-start sm:items-end">
+            <h2 className="text-2xl sm:text-3xl text-center sm:text-right text-cyan-400 font-bold mb-2 sm:mb-4">
               Welcome to J-uza
             </h2>
-            <h3 className="text-xl sm:text-2xl font-bold mb-2 sm:mb-4">
+            <h3 className="text-xl sm:text-2xl font-bold mb-2 sm:mb-4 text-right">
               Where Community Matters and Businesses Thrive! Connect, Trade, and
               Discover Exciting Opportunities
             </h3>
-            <p className="text-black">
+            <p className="text-black text-right">
               With community trade at heart, J-uza not only enables you to post
               ads and connect with customers, but also enables and activates
               business sustenance and growth within its various ecosystems.
@@ -98,26 +97,29 @@ const HoldingPage = () => {
             <img
               src="/assets/images/ATL-Logo.png"
               alt="Footer Logo 1"
-              className="w-16 h-16"
+              className="w-22 h-22"
             />
           </div>
           <div>
             <img
               src="/assets/images/SDG-17.png"
               alt="Footer Logo 2"
-              className="w-16 h-16"
+              className="w-22 h-22"
             />
           </div>
         </div>
         <div className="flex flex-col justify-center items-center mt-8 space-y-6 md:space-y-0 md:flex-row md:justify-center md:items-center md:space-x-8">
-          <div className="flex items-center text-cyan-400">
+          <a
+            href="mailto:Info@J-uza.com"
+            className="flex items-center text-cyan-400"
+          >
             <FiMail className="mr-2" />
             <p className="text-sm md:text-base">Info@J-uza.com</p>
-          </div>
-          <div className="flex items-center text-cyan-400">
+          </a>
+          <a href="tel:0113929769" className="flex items-center text-cyan-400">
             <FiPhone className="mr-2" />
             <p className="text-sm md:text-base">0113929769</p>
-          </div>
+          </a>
           <div className="flex items-center text-cyan-400">
             <FiMapPin className="mr-2" />
             <p className="text-sm md:text-base">
@@ -126,7 +128,7 @@ const HoldingPage = () => {
           </div>
         </div>
 
-        <div className="text-center mt-6 md:mt-8">
+        <div className="text-center mt-6 md:mt-8 pb-4">
           <p className="font-bold">
             &copy; {new Date().getFullYear()} App Town Technologies Ltd
           </p>
