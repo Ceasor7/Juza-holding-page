@@ -97,14 +97,14 @@ const HoldingPage = () => {
             <img
               src="/assets/images/ATL-Logo.png"
               alt="Footer Logo 1"
-              className="w-22 h-22"
+              className="w-18 h-18"
             />
           </div>
           <div>
             <img
               src="/assets/images/SDG-17.png"
               alt="Footer Logo 2"
-              className="w-22 h-22"
+              className="w-18 h-18"
             />
           </div>
         </div>
