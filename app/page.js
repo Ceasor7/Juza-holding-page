@@ -5,34 +5,36 @@ import { TfiWorld } from 'react-icons/tfi';
 import { FaMusic } from 'react-icons/fa';
 import { PiFilmSlateBold } from 'react-icons/pi';
 
-const HoldingPage = () => {
+const test1 = () => {
   return (
-    <section className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-      <div className="bg-gray-100">
-        <div className="flex flex-col items-center justify-center p-2 sm:p-8">
+    <div className="bg-scroll bg-no-repeat bg-my_bg_image h-[972px]">
+      <div className="flex flex-col sm:flex-row">
+        <div className="sm:w-1/3 p-4 ml-4 float-right italic">
           <img
-            src="/assets/images/Logo-TM.png"
-            alt="Juza Logo"
-            className="w-36 h-35 sm:w-40 sm:h-40"
+            src="/assets/images/Under-construction.png"
+            alt="Image"
+            className="w-50 h-80"
           />
         </div>
-        <div className="flex flex-col-reverse sm:flex-row p-2 sm:p-8">
-          <div className="w-full sm:w-1/2 pr-0 sm:pr-4 mt-4 sm:mt-0 flex justify-center items-center">
-            <img
-              src="/assets/images/Under-construction.png"
-              alt="Image"
-              className="w-50 h-60"
-            />
+        <div className="sm:w-2/3">
+          <div className="flex justify-center items-center mt-8">
+            <div className="mr-4">
+              <img
+                src="/assets/images/Logo-TM.png"
+                alt="Juza Logo"
+                className="w-36 h-35 py-0 sm:w-42 sm:h-42"
+              />
+            </div>
           </div>
-          <div className="w-full sm:w-1/2 p-4 sm:p-8 flex flex-col justify-center items-start sm:items-end">
-            <h2 className="text-2xl sm:text-3xl text-center sm:text-right text-cyan-400 font-bold mb-2 sm:mb-4">
+          <div className="max-w-md mx-auto sm:w-2/3 lg:w-1/2 p-6 sm:p-8 flex flex-col justify-center items-center">
+            <h2 className="text-3xl sm:text-4xl text-center text-cyan-400 font-bold mb-4 sm:mb-6">
               Welcome to J-uza
             </h2>
-            <h3 className="text-xl sm:text-2xl font-bold mb-2 sm:mb-4 text-right">
+            <h3 className="text-lg sm:text-xl font-bold mb-4 sm:mb-6 text-center">
               Where Community Matters and Businesses Thrive! Connect, Trade, and
               Discover Exciting Opportunities
             </h3>
-            <p className="text-black text-right">
+            <p className="text-black text-center leading-relaxed">
               With community trade at heart, J-uza not only enables you to post
               ads and connect with customers, but also enables and activates
               business sustenance and growth within its various ecosystems.
@@ -44,7 +46,6 @@ const HoldingPage = () => {
       <p className="mt-4 text-lg text-center text-cyan-400 font-bold mb-4 ">
         Key Features
       </p>
-
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mt-8 mx-4">
         <div className="bg-white p-4 rounded-lg shadow-md flex flex-col items-center justify-center">
           <FcBriefcase />
@@ -86,7 +87,6 @@ const HoldingPage = () => {
           </p>
         </div>
       </div>
-
       <p className="mt-4 text-center text-cyan-400 font-bold mb-4">
         Sustainable Development Goals
       </p>
@@ -97,14 +97,14 @@ const HoldingPage = () => {
             <img
               src="/assets/images/ATL-Logo.png"
               alt="Footer Logo 1"
-              className="w-18 h-18"
+              className="w-16 h-16"
             />
           </div>
           <div>
             <img
               src="/assets/images/SDG-17.png"
               alt="Footer Logo 2"
-              className="w-18 h-18"
+              className="w-16 h-16"
             />
           </div>
         </div>
@@ -134,8 +134,8 @@ const HoldingPage = () => {
           </p>
         </div>
       </footer>
-    </section>
+    </div>
   );
 };
 
-export default HoldingPage;
+export default test1;
