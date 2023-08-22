@@ -1,3 +1,5 @@
+import './globals.css';
+
 export const metadata = {
   title: 'J-uza | Coming soon ',
   description: 'Building healthy communities around trade',
